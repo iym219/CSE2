@@ -1,4 +1,5 @@
-//This is a late submission because I was communicating with the instructor during late hours and I still hadn't last night. I didn't ask for an extension because I had some complications trying to add multiple methods.
+//This is a late submission because I was communicating with the instructor during late hours and I still hadn't last night. 
+//I didn't ask for an extension because I had some complications trying to add multiple methods.
 
 public class Arithmetic{
     public static void main(String [] args){
