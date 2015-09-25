@@ -1,0 +1,44 @@
+        String multiplication;
+        String subtraction;
+        String addition;
+        String division;
+        double multi= valueA*valueB;
+        double add= valueA+valueB;
+        double sub= valueA-valueB;
+        double div= valueA/valueB;
+    //    if (valueOperator== multiplication){
+  //          System.out.println("Your value is "+multi);}
+//        else if (valueOperator.equals(subtraction)){
+          //  System.out.println(sub);}
+        //else if (valueOperator.equal(addition)){
+      //      System.out.println(add);}
+  //      else if (valueOperator.equal(division)){
+    //        System.out.println(div);}
+        switch (valueoperator){
+            case multiplication:
+                System.out.println(+multi);
+                break;
+            case division:
+                System.out.println(+div);
+                break;
+            case subtraction:
+                System.out.println(+sub);
+                break;
+            case addition:
+                System.out.println(+add);
+                break;
+        }
+        }}
+//switch( student ){
+//	case 1:
+//	..println(“freshman”);
+//	break;
+//	case 2:
+//	..println(“sophmore”);
+//	break;
+//	case 3:
+//	..println(“junior”);
+//	break;
+//	case 4:
+//	..println(“senior”);
+//	break;

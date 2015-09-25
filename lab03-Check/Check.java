@@ -18,7 +18,7 @@ public class Check{
         costPerPerson=totalCost / numPeople;
         dollars=(int)costPerPerson;
         //Line 20&21 have the percentage sign to return the remainder
-        dimes=(int) (costPerPerson*10)%10;
+        dimes=(int) (costPerPerson*100)%10;
         pennies=(int) (costPerPerson*100)%10;
         System.out.println("Each person in the group owes $"+dollars + '.' +dimes+pennies);
     }
