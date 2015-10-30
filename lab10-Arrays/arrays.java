@@ -16,12 +16,12 @@ public class arrays{
             sum+=array[z];
         }
         double av=(double)sum/(double)nArray;
-        System.out.println("The total sum of all array numbers is "+sum+" The average with the array is "+av);
-        for(int w=0;w<nArray;w=0){
+        System.out.println("The total sum of all the array numbers is "+sum+" The average with the arrays is "+av);
+        for(int w=0;w<nArray;w++){
             if(array[w]>=av){
                 System.out.println("The numbers greater than the average are "+array[w]);
             }
-        return;
         }
+        return;
     }
 }
