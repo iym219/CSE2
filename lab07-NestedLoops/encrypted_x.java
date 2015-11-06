@@ -8,10 +8,10 @@ public class encrypted_x{
         if(input<100 && input>0){
             for (i=0;i<input;i++){
                 for(j=0;j<input;j++){
-                    if((input-i)==j){
+                    if((input-i)==j+1){
                         System.out.print(" ");
                     }
-                    else if(i == j) {
+                    else if(i==j) {
                         System.out.print(" ");
                     }
                     else{
